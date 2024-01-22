@@ -377,7 +377,7 @@ nav ul li a{
 
 .container-2{
     width: 100%;
-    height: 100vh;
+    height: 70vh;
     background: #ffff;
 }
 
@@ -476,7 +476,7 @@ nav ul li a{
 
  @media screen and (max-width:860px){
       .container-2{
-        height: 70vh;
+        height: 65vh;
       }
 
       .title h1{
@@ -536,6 +536,18 @@ nav ul li a{
       .bottom{
         display: block;
       }
+
+      .var .title p{
+            width: 350px;
+            font-size: 12px;
+            padding-left: 16%;
+      }
+
+      .works-place p{
+        width: 400px;
+        position: relative;
+        left: 23%;
+      }
  }
 
 
@@ -549,7 +561,7 @@ nav ul li a{
 
 .container-3{
     width: 100%;
-    height: 100vh;
+    height: 70vh;
     background: #ffff;
 }
 
@@ -675,13 +687,14 @@ h2{
 
 @media screen and (max-width:800px) {
     .container-3{
-        height: 50vh;
+        height: 40vh;
     }
 
     #content-3{
         width: 250px;
         margin-left: 16%;
     }
+    
 
     .talent-box-2{
         position: relative;
@@ -689,61 +702,99 @@ h2{
     }
     
     .talent-1{
-        width: 210px;
-        height: 105px;
+        width: 135px;
+        height: 70px;
     }
 
     .talent-1 img{
-        height: 100px;
+        height: 60px;
+        position: relative;
+        left: 2%;
+    }
+
+    .talent-1 h2{
+        font-size: 12px;
+        position: relative;
+        left: 2%;
     }
 
 
     .talent-2{
-        width: 210px;
-        height: 105px;
+        width: 135px;
+        height: 70px;
     }
     
     .talent-2 img{
-        height: 100px;
+        height: 60px;
+    }
+
+    .talent-2 h2{
+        font-size: 12px;
+        position: relative;
+        left: 8%;
     }
 
 
     .talent-3{
-        width: 210px;
-        height: 105px;
+        width: 135px;
+        height: 70px;
     }
     
     .talent-3 img{
-        height: 100px;
+        height: 60px;
+    }
+
+    .talent-3 h2{
+        font-size: 12px;
+        position: relative;
+        left: 5%;
     }
 
 
     .talent-4{
-        width: 210px;
-        height: 105px;
+        width: 135px;
+        height: 70px;
     }
     
     .talent-4 img{
-        height: 100px;
+        height: 60px;
+    }
+
+    .talent-4 h2{
+        font-size: 12px;
+        position: relative;
+        left: 8%;
     }
 
 
     .talent-5{
-        width: 210px;
-        height: 105px;
+        width: 135px;
+        height: 70px;
     }
     
     .talent-5 img{
-        height: 100px;
+        height: 60px;
+    }
+
+    .talent-5 h2{
+        font-size: 12px;
+        position: relative;
+        left: 8%;
     }
 
     .talent-6{
-        width: 210px;
-        height: 105px;
+        width: 135px;
+        height: 70px;
     }
     
     .talent-6 img{
-        height: 100px;
+        height: 60px;
+    }
+
+    .talent-6 h2{
+        font-size: 12px;
+        position: relative;
+        left: 5%;
     }
 }
 
@@ -753,7 +804,7 @@ h2{
 
 .container-4{
     width: 100%;
-    height: 100vh;
+    height: 70vh;
     background: #ffff;
 }
 
@@ -892,6 +943,10 @@ h3{
         left: 10%;
     }
 
+    .long h4{
+        margin-left: 10%;
+    }
+
 
     #aakash{
         position: relative;
@@ -914,8 +969,16 @@ h3{
 
 .container-5{
     width: 100%;
-    height: 100vh;
+    height: 70vh;
     background: #ffff;
+}
+
+/*** respinsive ***/
+
+@media screen and (max-width:700px) {
+    .container-5{
+        height: 90vh;
+    }
 }
 
 
@@ -1004,6 +1067,12 @@ h3{
        bottom: -500px;
        left: -40%;
     }
+
+    .letter .title p{
+        font-size: 14px;
+        width: 370px;
+        margin-left: 5%;
+    }
 }
 
 
@@ -1085,7 +1154,7 @@ h3{
 @media screen and (max-width:650px) {
     .container-7{
         position: relative;
-        bottom: 270px;
+        bottom: 460px;
     }
 
     .manager{
@@ -1094,27 +1163,32 @@ h3{
 
     .man-img{
         position: relative;
-        left: 60px;
+        left: 70px;
         width: 350px;
     }
 
     #para{
-        padding-left: 20%;
+        padding-left: 22%;
     }
 
     .man h2{
-        padding-left: 15%;
+        padding-left: 17%;
         font-weight: 800;
         font-size: 14px;
     }
 
     .man p{
-        padding-left: 20%;
+        padding-left: 22%;
     }
 
     .man-btn{
         position: relative;
         left: -40px;
+        padding: 15px 35px;
+    }
+
+    #dood{
+        display: none;
     }
 }
 
@@ -1129,7 +1203,7 @@ h3{
 
 .container-8{
     width: 100%;
-    height: 70vh;
+    height: 100vh;
     background: #ffff;
 }
 
@@ -1191,8 +1265,8 @@ input{
 @media screen and (max-width:620px) {
     .container-8{
         position: relative;
-        bottom: -50px;
-        height: 35vh;
+        bottom: -80px;
+        height: 50vh;
     }
 
     .left{
@@ -1288,7 +1362,7 @@ input{
 /**** Responsive-9 ***/
 @media screen and (max-width:580px) {
     .container-9{
-        height: 65vh;
+        height: 70vh;
     }
     .footer{
         padding-top: 15%;
@@ -1329,13 +1403,10 @@ input{
 
 /*** Responsive ***/
 
-.container-10{
-    height: 4vh;
-}
-
-.last h1{
-    padding-top: 0.9%;
-    font-size: 18px;
+@media  screen and  (max-width:560px) {
+    .container-10{
+        height: 3vh;
+    }
 }
 
 /*** Container-10 ***/
